@@ -1,3 +1,3 @@
-# Dynamic-Supply-Chain
+# Dynamic-Supply-Chain model
 </br>
 
