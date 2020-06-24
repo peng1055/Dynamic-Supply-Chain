@@ -47,7 +47,7 @@ From above description, we could know the purpose of SCM is to minimize the abov
 In the following space, we will introduce the variables, constraints, and input data required by the model.
 <br><br>
 <ol>
-<li><h5><b> Build a Supply Chain Model (SCM)</b></h5></li>
+<li><h5><b> Notations of SCM</b></h5></li>
 
 
   
