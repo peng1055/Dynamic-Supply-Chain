@@ -34,7 +34,6 @@ Moreover, in order to adapt to the demand of the market, each enterprises <b>nee
 <br><br>
 
 <li><h3><b> Build a Supply Chain Model (SCM)</b></h3></li>
-<br><br>
 To genereate a strategy that can fit market demand, we can start from the aspect of cost, and analyze the following costs from the above five activities:<br>
 1. Material costs<br>
 2. Transportation costs from suppliers to facilities<br>
