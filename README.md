@@ -13,16 +13,20 @@ In this part, we only focus on the external supply chain.
 
 There are some important roles in a supply chian:
 <br>
-1. Vender <br>  
-2. Facility <br>  
-3. Warehouse <br>  
-4. Customer <br>  
+<ol>
+<li> Vender <br>  </li>
+<li> Facility <br>  </li>
+<li> Warehouse <br>  </li>
+<li> Customer <br>  </li>
+</ol>
 And these four roles will have the following five activities:<br>
-1. Purchase raw materials from venders (suppliers)<br>
-2. Transport raw materials from venders to facilities<br>
-3. Assemble products in facilities<br>
-4. Transport products from facilities to warehouses<br>
-5. Transport products from warehouses to customers<br>
+<ol>
+<li> Purchase raw materials from venders (suppliers)<br></li>
+<li> Transport raw materials from venders to facilities<br></li>
+<li> Assemble products in facilities<br></li>
+<li> Transport products from facilities to warehouses<br></li>
+<li> Transport products from warehouses to customers<br></li>
+</ol>
 <br>
 Below figure is an example which shows the structure of a supply chain. 
 <br>
