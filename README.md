@@ -49,7 +49,18 @@ In the following space, we will introduce the variables, constraints, and input 
 <ol>
 <li><h5><b> Notations of SCM</b></h5></li>
 
+<table>
+ <tr>
+ <th>Set</th><th>Description</th>
+ </tr>
+ <tr>
+ <th>Set</th><th>Description</th>
+ </tr>
+ <tr>
 
+ </tr>
+</table>
+ <br>
   
 
 
