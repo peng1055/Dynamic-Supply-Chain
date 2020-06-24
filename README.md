@@ -2,7 +2,6 @@
 </br>
 </br>
 <b>Basic flow of supply chain</b>
---------------------
 </br>
 There are some important roles in a supply chian:
 </br>
