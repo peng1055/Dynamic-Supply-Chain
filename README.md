@@ -32,7 +32,7 @@ From the above picture, we could understand the supply chain is a network struct
 Moreover, in order to adapt to the demand of the market, each enterprises <b>need to update their strategy frequently or periodically</b>, and this circumstance makes the <b>supply chain dynamically</b>.
 <br>
 <br>
-<li><h3><b> Build a Supply Chain Model (SCM)</b></h3></li>
+<li><h2><b> Build a Supply Chain Model (SCM)</b></h2></li>
 To genereate a strategy that can fit market demand, we can start from the aspect of cost, and analyze the following costs from the above five activities:<br><br>
 1. Material costs<br>
 2. Transportation costs from suppliers to facilities<br>
@@ -47,20 +47,35 @@ From above description, we could know the purpose of SCM is to minimize the abov
 In the following space, we will introduce the variables, constraints, and input data required by the model.
 <br><br>
 <ol>
-<li><h4><b> Notations of SCM</b></h4></li>
+<li><h3><b> Notations of SCM</b></h3></li>
 The notations of SCM are as following table. 
 <table>
- <tr>
- <th>Set</th> <th>Description</th> <th>Remark </th>
- </tr>
- <tr>
- <th>Set</th> <th>Description</th> <th>v ∈ V </th>
- </tr>
- <tr>
-
- </tr>
+<tr>
+<th>Set</th> <th>Description</th> <th>Remark </th>
+</tr>
+<tr>
+<th>V</th> <th>vender(supplier)</th> <th>v ∈ V </th>
+</tr>
+<tr>
+<th>F</th> <th>Facility</th> <th>f ∈ F </th>
+</tr>
+<tr>
+<th>W</th> <th>Warehouse</th> <th>w ∈ W </th>
+</tr>
+<tr>
+<th>C</th> <th>Customer</th> <th>c ∈ C </th>
+</tr>
+<tr>
+<th>T</th> <th>Time unit</th> <th>t ∈ T </th>
+</tr>
+<tr>
+<th>P</th> <th>Raw material</th> <th>p ∈ P </th>
+</tr>
+<tr>
+<th>G</th> <th>Goods</th> <th>g ∈ G </th>
+</tr>
 </table>
- <br>
+<br>
   
 
 
