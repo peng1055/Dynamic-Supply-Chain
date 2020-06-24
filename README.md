@@ -44,7 +44,7 @@ To genereate a strategy that can fit market demand, we can start from the aspect
 8. Transportation costs from warehouses to customers<br>
 <br><br>
 From above description, we could know the purpose of SCM is to minimize the above cost. 
-In the following space, we will introduce the variables, constraints, and input data required by the model.
+In the following part, we will introduce the variables, constraints, and input data required by the model.
 <br><br>
 <ol>
 <li><h3><b> Notations of SCM</b></h3></li>
