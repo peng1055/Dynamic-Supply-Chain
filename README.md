@@ -29,7 +29,7 @@ Below figure is an example which shows the structure of a supply chain.  <br>
 
 From the above picture, we could understand the supply chain is a network structure, and there is a demand and supply relationship between the downstream nodes and upstream nodes.
 <br><br>
-Moreover, in order to adapt to the demand of the market, each enterprises <b>need to update their strategy frequently or periodically</br>, and this circumstance makes the <b>supply chain dynamically</b>.
+Moreover, in order to adapt to the demand of the market, each enterprises <b>need to update their strategy frequently or periodically</b>, and this circumstance makes the <b>supply chain dynamically</b>.
 <br><br>
 
 <h3><b> Build a Supply Chain Model (SCM)</b></h3>
