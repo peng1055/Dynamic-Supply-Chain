@@ -77,9 +77,53 @@ The notations of SCM are as following table.
 </tr>
 </table>
 <br><br>
-  
 
+<li><h3><b> Input data of SCM</b></h3></li>
+ALl values are constant and should be provided by user. 
+<br><br>
+<table>
+<tr>
+<th>Data</th> <th>Description</th> 
+</tr>
+<tr>
 
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+
+</tr>
 
 
 
