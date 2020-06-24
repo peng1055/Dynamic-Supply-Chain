@@ -1,7 +1,7 @@
 # Dynamic-Supply-Chain model
 </br>
 </br>
-**Basic flow of supply chain**
+<b>Basic flow of supply chain</b>
 --------------------
 </br>
 There are some important roles in a supply chian:
