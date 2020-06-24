@@ -5,21 +5,22 @@
 Overall, the supply chain can be divided into <b>internal supply chain</b> and <b>external supply chain</b>.
 <br><br>
 In the process of production and circulation, the internal supply chain is a network formed by many departments of a company, including the <b>internal purchasing , production, warehousing, and sales.</b>
-<br>
-On the other hand, the external supply chain refers to the network composed of <b>raw material vendors, facilities, Warehouses, and final consumers </b> which related to the enterprise.
-<br>
+<br><br>
+On the other hand, the external supply chain refers to the network composed of <b>raw material vendors, facilities, warehouses, and final consumers </b> which related to the enterprise.
+<br><br>
 In this part, we only focus on the external supply chain.
-<br>
+<br><br>
 
 There are some important roles in a supply chian:
-<br>
+<br><br>
 <ol>
 <li> Vender <br>  </li>
 <li> Facility <br>  </li>
 <li> Warehouse <br>  </li>
 <li> Customer <br>  </li>
 </ol>
-And these four roles will have the following five activities:<br>
+<br>
+And these four roles will have the following five activities:<br><br>
 <ol>
 <li> Purchase raw materials from venders (suppliers)<br></li>
 <li> Transport raw materials from venders to facilities<br></li>
