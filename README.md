@@ -22,10 +22,26 @@ And these four roles will have the following five activities:<br>
 4. Transport products from facilities to warehouses<br>
 5. Transport products from warehouses to customers<br>
 
-Below figure is an schematic diagram: <br>
+Below figure is an example which shows the structure of a supply chain.  <br>
 <br>
 <img src=https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/activities.png>
 <br><br>
+
+From the above picture, we could understand the supply chain is a network structure, and there is a demand and supply relationship between the downstream nodes and upstream nodes.
+<br><br>
+Moreover, in order to adapt to the demand of the market, each enterprises <b>need to update their strategy frequently or periodically</br>, and this circumstance makes the supply chain <b>dynamically</b>.
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
 And the above activities will include several costs:<br>
 1. Material costs<br>
 2. Transportation costs from suppliers to facilities<br>
