@@ -1,6 +1,10 @@
 # Dynamic-Supply-Chain model
 </br>
-
-# Dynamic-Supply-Chain model
-
-* try
+</br>
+*  Basic flow of supply chain
+</br>
+There are some important roles in a supply chian:
+1. Vendor
+2. Facility
+3. Warehouse
+4. Customer
