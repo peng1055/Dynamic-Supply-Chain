@@ -1,7 +1,7 @@
 # Dynamic-Supply-Chain model
 <br>
 <ul>
-<li><h3><b>Background introduce of supply chain</b></h3></li>
+<li><h2><b>Background introduce of supply chain</b></h2></li>
 Overall, the supply chain can be divided into <b>internal supply chain</b> and <b>external supply chain</b>.
 <br><br>
 In the process of production and circulation, the internal supply chain is a network formed by many departments of a company, including the <b>internal purchasing , production, warehousing, and sales.</b> On the other hand, the external supply chain refers to the network composed of <b>raw material vendors, facilities, Warehouses, and final consumers </b> which related to the enterprise.
@@ -47,7 +47,7 @@ From above description, we could know the purpose of SCM is to minimize the abov
 In the following space, we will introduce the variables, constraints, and input data required by the model.
 <br><br>
 <ol>
-<li><h5><b> Notations of SCM</b></h5></li>
+<li><h4><b> Notations of SCM</b></h4></li>
 The notations of SCM are as following table. 
 <table>
  <tr>
