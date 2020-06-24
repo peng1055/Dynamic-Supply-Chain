@@ -48,7 +48,7 @@ In the following space, we will introduce the variables, constraints, and input 
 <br><br>
 <ol>
 <li><h5><b> Notations of SCM</b></h5></li>
-
+The notations of SCM are as following table, and v ∈ V  
 <table>
  <tr>
  <th>Set</th><th>Description</th>
