@@ -4,7 +4,9 @@
 <li><h2><b>Background introduce of supply chain</b></h2></li>
 Overall, the supply chain can be divided into <b>internal supply chain</b> and <b>external supply chain</b>.
 <br><br>
-In the process of production and circulation, the internal supply chain is a network formed by many departments of a company, including the <b>internal purchasing , production, warehousing, and sales.</b> On the other hand, the external supply chain refers to the network composed of <b>raw material vendors, facilities, Warehouses, and final consumers </b> which related to the enterprise.
+In the process of production and circulation, the internal supply chain is a network formed by many departments of a company, including the <b>internal purchasing , production, warehousing, and sales.</b>
+<br>
+On the other hand, the external supply chain refers to the network composed of <b>raw material vendors, facilities, Warehouses, and final consumers </b> which related to the enterprise.
 <br>
 In this part, we only focus on the external supply chain.
 <br>
