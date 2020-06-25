@@ -30,7 +30,7 @@ And these four roles will have the following five activities:<br><br>
 </ol>
 <br>
 Below figure is an example which shows the structure of a supply chain. 
-<br>
+<br><br>
 <img src=https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/activities.png width="500" height="500">
 <br>
 <br>
