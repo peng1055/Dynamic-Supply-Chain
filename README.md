@@ -184,6 +184,5 @@ Variables can be divided into L(Level) and R(Rate).<br>
 
 
 
-
 </ol>
 </ul>
