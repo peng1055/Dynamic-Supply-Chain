@@ -171,7 +171,7 @@ Variables can be divided into L(Level) and R(Rate).<br>
 <tr>
 <th>LC<sub>tcg</sub> </th><th>Quantity of goods g required for customer c at time t</th>
 </tr>
-<table>
+</table>
 
 <br>
 <br>
@@ -206,4 +206,9 @@ In the previous part, we mentioned that this is a minimization problem. So, the 
   <li>&sum;<sub>w</sub> R<sub>(t &minus; T<sub>wc</sub>)wcg</sub> = LC<sub>tcg</sub> for all t, c, g</sub></li>
 </ul>
 </ol>
-</ul>
+<br><br>
+<li><h2><b> Build a Supply Chain Model (SCM): Constrains</b></h2></li>
+Please refer to the <a href="https://www.w3schools.com">SCM Example</a>
+
+
+</ul>大標題的
