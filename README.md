@@ -198,9 +198,9 @@ Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>t
 <ul>
   <li>&sum;<sub>f</sub> R<sub>tvfp</sub> = LV<sub>tvp</sub> for all t, v, p</li>
   <li>LF<sub>tfp</sub> &minus; &sum;<sub>g</sub> BOM<sub>gp</sub>R<sub>tfg</sub> = LF<sub>(t+1)fp</sub> for all f, p, and 0 < t &le; T<sub>vf</sub></li>
-  <li>LF<sub>tfp</sub> + &sum;<sub>v</sub> R<sub>(t &minus; T<sub>vf</sub>)vfp</sub> &minus; &sum; BOM<sub>g</sub> <sub>gp</sub>R<sub>tfg</sub> = LF<sub>(t+1)fp</sub></li>
-  <li>LF<sub>tfg</sub> &minus; &sum;<sub>w</sub> R<sub>tfwg</sub> = LF<sub>(t+1)fp</sub></li>
-  <li>
+  <li>LF<sub>tfp</sub> + &sum;<sub>v</sub> R<sub>(t &minus; T<sub>vf</sub>)vfp</sub> &minus; &sum;<sub>g</sub> BOM<sub>gp</sub>R<sub>tfg</sub> = LF<sub>(t+1)fp</sub> for all f, p, and T<sub>vf</sub> < t &le; n</li>
+  <li>LF<sub>tfg</sub> &minus; &sum;<sub>w</sub> R<sub>tfwg</sub> = LF<sub>(t+1)fp</sub> for all f, g, and 0 < t &le; T<sub>bomfg</sub></li>
+  <li>LF<sub>tfg</sub> + R<sub>(t &minus; T<sub>bomfg</sub>)fg</sub> &minus; &sum;<sub>w</sub> R<sub>tfwg</sub> = LF<sub>(t+1)fp</sub> for all f, g, and T<sub>bomfg</sub> < t &le; n</sub></li>
   
   
 
