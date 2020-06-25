@@ -178,7 +178,12 @@ Variables can be divided into L(Level) and R(Rate).<br>
 <li><h2><b> Build a Supply Chain Model (SCM): Constrains</b></h2></li>
 <ol>
 <li><h3><b> Objective function</b></h3></li>
-In the previous part, 
+In the previous part, we mentioned that this is a minimization problem. So, the objective function is the sum of total cost, and  we try to minimize it.
+
+```matlab
+abc
+```
+
 
 
 
