@@ -111,22 +111,25 @@ ALl values are constant and should be provided by user.
 <th>FM_Icost<sub>tfp</sub> </th><th>the inventory cost of material p in facility f at time t</th>
 </tr>
 <tr>
-
+<th>FG_Icost<sub>tfg</sub> </th><th>the inventory cost of goods g in facility f at time t</th>
 </tr>
 <tr>
-
+<th>W_Icost<sub>twg</sub> </th><th>the inventory cost of goods g in warehouse w at time t</th>
 </tr>
 <tr>
-
+<th>T<sub>vf</sub> </th><th>the transportation lead time from vender v to facility f</th>
 </tr>
 <tr>
-
+<th>T<sub>fw</sub> </th><th>the transportation lead time from facility f to warehouse w</th>
 </tr>
 <tr>
-
+<th>T<sub>wc</sub> </th><th>the transportation lead time from warehouse w to customer c</th>
 </tr>
 <tr>
-
+<th>T<sub>bomfc</sub> </th><th>Time required for facility f to produce goods g</th>
+</tr>
+<tr>
+<th>BOM<sub>gp</sub> </th><th>Quantity of raw material p required for product g</th>
 </tr>
 
 
