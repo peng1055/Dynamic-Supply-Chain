@@ -186,7 +186,7 @@ Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>t
 <br><br>
 <li><h3><b> Upperbound and Lowerbound constrains</b></h3></li>
 <ul>
-  <li>0	&le;R<sub>tvfp</sub>&le;<span style="text-decoration:overline;">R<sub>tvfp</sub></span>  for all t, v, f, p</li>
+  <li>0	&le;R<sub>tvfp</sub>&le;<p style="text-decoration:overline">R<sub>tvfp</sub></p>  for all t, v, f, p</li>
   <li>0	&le;R<sub>tfwg</sub>&le;upper R<sub>tfwg</sub>  for all t, v, f, p</li>
   <li>0	&le;R<sub>twcg</sub>&le;upper R<sub>twcg</sub>  for all t, v, f, p</li>
   <li>lower R<sub>tfg</sub>	&le;R<sub>tfg</sub>&le;upper R<sub>tfg</sub>  for all t, v, f, p</li>
