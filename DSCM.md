@@ -31,7 +31,7 @@ And these four roles will have the following five activities:<br><br>
 <br>
 Below figure is an example which shows the structure of a supply chain. 
 <br><br>
-<img src=https://imgur.com/Pb9oixe width="500" height="500">
+<img src=https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/activities.png width="500" height="500">
 <br>
 <br>
 From the above picture, we could understand the supply chain is a network structure, and there is a demand and supply relationship between the downstream nodes and upstream nodes.
