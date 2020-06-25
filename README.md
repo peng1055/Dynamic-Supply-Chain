@@ -180,9 +180,9 @@ Variables can be divided into L(Level) and R(Rate).<br>
 <li><h3><b> Objective function</b></h3></li>
 In the previous part, we mentioned that this is a minimization problem. So, the objective function is the sum of total cost, and  we try to minimize it.
 
-```matlab
+
 Min &sum;<sup>t</sup>
-```
+
 
 
 
