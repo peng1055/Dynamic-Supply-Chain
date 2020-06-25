@@ -181,7 +181,7 @@ Variables can be divided into L(Level) and R(Rate).<br>
 In the previous part, we mentioned that this is a minimization problem. So, the objective function is the sum of total cost, and  we try to minimize it.
 
 
-Min &sum;<sub>t</sub> (&sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>tvp</sub>
+Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>tvp</sub> + &sum;<sub>vfp</sub> VF_Tcost<sub>tvfp</sub> &middot; R<sub>tvfp</sub> + &sum;<sub>fg</sub> Pcost<sub>tfg</sub> &middot; R<sub>tfg</sub> + &sum;<sub>fp</sub> FM_Icost<sub>tfp</sub> &middot; LF<sub>tfp</sub> + &sum;<sub>fg</sub> FG_Icost<sub>tfg</sub> &middot; LF<sub>tfg</sub> + &sum;<sub>wg</sub> W_Icost<sub>twg</sub> &middot; LW<sub>twg</sub> + &sum;<sub>fwg</sub> FW_Tcost<sub>tfwg</sub> &middot; R<sub>tfwg</sub> + &sum;<sub>wcg</sub> WC_Tcost<sub>twcg</sub> &middot; R<sub>twcg</sub>
 
 
 
