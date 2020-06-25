@@ -86,7 +86,7 @@ The notations of SCM are as following table.
 <br><br>
 
 <li><h3><b> Input data of SCM</b></h3></li>
-ALl values are constant and should be provided by user. 
+Al values are constant and should be provided by user. 
 <br><br>
 <table>
 <tr>
