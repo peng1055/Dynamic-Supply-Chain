@@ -194,7 +194,7 @@ Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>t
   
 </ul>
 
-\overline{R<sub>tvfp</sub>}
+
 
 
 
@@ -203,3 +203,4 @@ Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>t
 </ol>
 
 </ul>
+\overline{R}
