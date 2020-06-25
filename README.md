@@ -198,8 +198,8 @@ Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>t
 <ul>
   <li>&sum;<sub>f</sub> R<sub>tvfp</sub> = LV<sub>tvp</sub></li>
   <li>LF<sub>tfp</sub> &minus; &sum;<sub>g</sub> BOM<sub>gp</sub>R<sub>tfg</sub> = LF<sub>(t+1)fp</sub> </li>
-  <li>LF<sub>tfp</sub> - &sum;<sub>g</sub> BOM<sub>gp</sub>R<sub>tfg</sub> = LF<sub>(t+1)fp</sub> </li>
-  <li>LF<sub>tfp</sub> + &sum;<sub>v</sub> R<sub>(t-T<sub>vf</sub>)vfp</sub></li>
+  <li>LF<sub>tfp</sub> + &sum;<sub>v</sub> R<sub>(t &minus; T<sub>vf</sub>)vfp</sub> &minus; &sum;<sub>g</sub> <sub>gp</sub>R<sub>tfg</sub> = LF<sub>(t+1)fp</sub></li>
+  <li>
   
   
 
