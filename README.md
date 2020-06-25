@@ -93,22 +93,22 @@ ALl values are constant and should be provided by user.
 <th>Data</th> <th>Description</th> 
 </tr>
 <tr>
-
+<th>Mcost<sub>tvp</sub></th> <th>the cost of material p which provided by vender v at time t</th> 
 </tr>
 <tr>
-
+<th>Pcost<sub>tfg</sub> </th><th>the production cost of goods g which is produced by facility f at time t</th>
 </tr>
 <tr>
-
+<th>VF_Tcost<sub>tvfp</sub> </th><th>the transportation cost of material p from vender v to facility f at time t</th>
 </tr>
 <tr>
-
+<th>FW_Tcost<sub>tfwg</sub> </th><th>the transportation cost of goods g from facility f to warehouse w at time t</th>
 </tr>
 <tr>
-
+<th>WC_Tcost<sub>twcg</sub> </th><th>the transportation cost of goods g from warehouse w to customer c at time t</th>
 </tr>
 <tr>
-
+<th>FM_Icost<sub>tfp</sub> </th><th>the inventory cost of material p in facility f at time t</th>
 </tr>
 <tr>
 
