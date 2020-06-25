@@ -39,7 +39,7 @@ From the above picture, we could understand the supply chain is a network struct
 Moreover, in order to adapt to the demand of the market, each enterprises <b>need to update their strategy frequently or periodically</b>, and this circumstance makes the <b>supply chain dynamically</b>.
 <br>
 <br>
-<li><h2><b> Build a Supply Chain Model (SCM)</b></h2></li>
+<li><h2><b> Build a Supply Chain Model (SCM): Notation, Variables, and Input data</b></h2></li>
 To genereate a strategy that can fit market demand, we can start from the aspect of cost, and analyze the following costs from the above five activities:<br><br>
 1. Material costs<br>
 2. Transportation costs from suppliers to facilities<br>
@@ -51,7 +51,7 @@ To genereate a strategy that can fit market demand, we can start from the aspect
 8. Transportation costs from warehouses to customers<br>
 <br><br>
 From above description, we could know the purpose of SCM is to minimize the above cost. 
-In the following part, we will introduce the variables, constraints, and input data required by the model.
+In the following part, we will introduce the notations, decision variables, and input data required by the model.
 <br><br>
 <ol>
 <li><h3><b> Notations of SCM</b></h3></li>
@@ -171,10 +171,13 @@ Variables can be divided into L(Level) and R(Rate).<br>
 <th>LC<sub>tcg</sub> </th><th>Quantity of goods g required for customer c at time t</th>
 </tr>
 <table>
+</ol>
 <br>
 <br>
-
-
+<li><h2><b> Build a Supply Chain Model (SCM): Constrains</b></h2></li>
+<ol>
+<li><h3><b> Objective function</b></h3></li>
+In the previous part, 
 
 
 
@@ -185,4 +188,5 @@ Variables can be divided into L(Level) and R(Rate).<br>
 
 
 </ol>
+
 </ul>
