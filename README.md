@@ -87,7 +87,7 @@ The notations of SCM are as following table.
 <br><br>
 
 <li><h3><b> Input data of SCM</b></h3></li>
-Al values are constant and should be provided by user. 
+All values are constant and should be provided by user. 
 <br><br>
 <table>
 <tr>
@@ -136,9 +136,9 @@ Al values are constant and should be provided by user.
 <br>
 <br>
 <li><h3><b> Decision variables of SCM</b></h3></li>
-</ol>
 Variables can be divided into L(Level) and R(Rate).<br>
 <b>The values of these variables are what users want to know. </b>
+</ol>
 <br>
 <br>
 <table>
