@@ -195,5 +195,6 @@ Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>t
   <li>lower LW<sub>twg</sub>	&le; LW<sub>twg</sub> &le; upper LW<sub>twg</sub>  for all t, w, g</li>
 </ul>
 
+
 </ol>
 </ul>
