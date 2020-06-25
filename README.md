@@ -212,6 +212,9 @@ In the previous part, we mentioned that this is a minimization problem. So, the 
 Please refer to the <a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/SCM%20example">SCM Example</a>
 <br><br>
 <li><h2><b>Summary</b></h2></li>
+In this article, we introduced the basic concepts of supply chain and the conditions required to build the supply chain models. However, in reality, the cost functions may not be linear, and there may be a quantity discount. This is the part that the linear model cannot explain.
+
+
 <li><h2><b>Reference</b></h2></li>
 <ul>
   <li>Handout of Operations Research Applications, ORA_03_Capacity_Scheduling_SCM_2020, Dr. Chia-Yen Lee</li>
