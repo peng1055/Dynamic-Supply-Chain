@@ -129,11 +129,48 @@ ALl values are constant and should be provided by user.
 <th>T<sub>bomfc</sub> </th><th>Time required for facility f to produce goods g</th>
 </tr>
 <tr>
-<th>BOM<sub>gp</sub> </th><th>Quantity of raw material p required for product g</th>
+<th>BOM<sub>gp</sub> </th><th>Quantity of raw material p required for producting goods g</th>
+</tr>
+</table>
+<br>
+<br>
+<li><h3><b> Decision variables of SCM</b></h3></li>
+The values of these variables are what users want to know. 
+<br>
+<br>
+<table>
+<tr>
+<th>Decision Variables</th> <th>Description</th> 
+</tr>
+<tr>
+<th>LV<sub>tvp</sub></th> <th>Quantity of material p purchased from vender v at time t</th> 
+</tr>
+<tr>
+<th>R<sub>tvfp</sub> </th><th>Quantity of material p transported from vender v to facility f at time t</th>
+</tr>
+<tr>
+<th>LF<sub>tfp</sub> </th><th>Inventory of material p in facility f at time t</th>
+</tr>
+<tr>
+<th>R<sub>tfg</sub> </th><th>Quantity of goods g produced by facility f at time t</th>
+</tr>
+<tr>
+<th>LF<sub>tfg</sub> </th><th>Inventory of goods g in facility f at time t</th>
+</tr>
+<tr>
+<th>R<sub>tfwg</sub> </th><th>Quantity of goods g transported from facility f to warehouse w at time t</th>
+</tr>
+<tr>
+<th>LW<sub>twg</sub> </th><th>Inventory of goods g in warehouse w at time t</th>
+</tr>
+<tr>
+<th>R<sub>twcg</sub> </th><th>Quantity of goods g transported from warehouse w to customer c at time t</th>
+</tr>
+<tr>
+<th>LC<sub>tcg</sub> </th><th>Quantity of goods g required for customer c at time t</th>
 </tr>
 
-
-
+<table>
 
 
 
