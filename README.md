@@ -185,7 +185,7 @@ Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>t
 </b>
 <br><br>
 <li><h3><b> Upperbound and Lowerbound constrains</b></h3></li>
-<sup>&mdash;<sup>a
+<sup>&mdash;</sup>a
 
 
 
