@@ -202,7 +202,7 @@ Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>t
   <li>LF<sub>tfg</sub> &minus; &sum;<sub>w</sub> R<sub>tfwg</sub> = LF<sub>(t+1)fg</sub> for all f, g, and 0 < t &le; T<sub>bomfg</sub></li>
   <li>LF<sub>tfg</sub> + R<sub>(t &minus; T<sub>bomfg</sub>)fg</sub> &minus; &sum;<sub>w</sub> R<sub>tfwg</sub> = LF<sub>(t+1)fg</sub> for all f, g, and T<sub>bomfg</sub> < t &le; n</sub></li>
   <li>LW<sub>twg</sub> &minus; &sum;<sub>c</sub> R<sub>twcg</sub> = LW<sub>(t+1)wg</sub> for all w, g, and 0 < t &le; T<sub>fw</sub></li>
-  <li>LW<sub>twg</sub> + R<sub>(t &minus; T<sub>fw</sub>)fwg</sub> &minus; &sum;<sub>c</sub> R<sub>twcg</sub> = LW<sub>(t+1)wg</sub> for all w, g, and T<sub>fw</sub> < t &le; n</sub></li>
+  <li>LW<sub>twg</sub> + &sum;<sub>f</sub> R<sub>(t &minus; T<sub>fw</sub>)fwg</sub> &minus; &sum;<sub>c</sub> R<sub>twcg</sub> = LW<sub>(t+1)wg</sub> for all w, g, and T<sub>fw</sub> < t &le; n</sub></li>
   <li>&sum;<sub>w</sub> R<sub>(t &minus; T<sub>wc</sub>)wcg</sub> = LC<sub>tcg</sub> for all t, c, g</sub></li>
 </ul>
 </ol>
