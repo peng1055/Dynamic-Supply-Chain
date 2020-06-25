@@ -49,9 +49,10 @@ To genereate a strategy that can fit market demand, we can start from the aspect
 6. Transportation costs from facilities to warehouses<br>
 7. Inventory costs of products in warehouses<br>
 8. Transportation costs from warehouses to customers<br>
+
+
 <br><br>
-From above description, we could know the purpose of SCM is to minimize the above cost. 
-In the following part, we will introduce the notations, decision variables, and input data required by the model.
+From above description, we could know the purpose of SCM is to minimize the above cost. Suppose these eight costs are all linear functions, we will introduce the notations, decision variables, and input data required by the model in the following part.
 <br><br>
 <ol>
 <li><h3><b> Notations of SCM</b></h3></li>
@@ -209,6 +210,14 @@ In the previous part, we mentioned that this is a minimization problem. So, the 
 <br><br>
 <li><h2><b> An example of supply chain model</b></h2></li>
 Please refer to the <a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/SCM%20example">SCM Example</a>
-
-
-</ul>大標題的
+<br><br>
+<li><h2><b>Summary</b></h2></li>
+<li><h2><b>Reference</b></h2></li>
+<ul>
+  <li>Handout of Operations Research Applications, ORA_03_Capacity_Scheduling_SCM_2020, Dr. Chia-Yen Lee</li>
+  <li>黎漢林, 供應鏈管理與決策, 儒林</li>
+  <li>https://wiki.mbalib.com/zh-tw/%E4%BE%9B%E5%BA%94%E9%93%BE</li>
+    
+    
+</ul>
+</ul>
