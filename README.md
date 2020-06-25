@@ -135,7 +135,8 @@ ALl values are constant and should be provided by user.
 <br>
 <br>
 <li><h3><b> Decision variables of SCM</b></h3></li>
-The values of these variables are what users want to know. 
+Variables can be divided into L(Level) and R(Rate).<br>
+<b>The values of these variables are what users want to know. </b>
 <br>
 <br>
 <table>
@@ -169,11 +170,9 @@ The values of these variables are what users want to know.
 <tr>
 <th>LC<sub>tcg</sub> </th><th>Quantity of goods g required for customer c at time t</th>
 </tr>
-
 <table>
-
-
-
+<br>
+<br>
 
 
 
