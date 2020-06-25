@@ -135,6 +135,7 @@ Al values are constant and should be provided by user.
 <br>
 <br>
 <li><h3><b> Decision variables of SCM</b></h3></li>
+</ol>
 Variables can be divided into L(Level) and R(Rate).<br>
 <b>The values of these variables are what users want to know. </b>
 <br>
@@ -171,7 +172,7 @@ Variables can be divided into L(Level) and R(Rate).<br>
 <th>LC<sub>tcg</sub> </th><th>Quantity of goods g required for customer c at time t</th>
 </tr>
 <table>
-</ol>
+
 <br>
 <br>
 <li><h2><b> Build a Supply Chain Model (SCM): Constrains</b></h2></li>
