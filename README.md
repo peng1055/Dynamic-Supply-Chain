@@ -207,8 +207,8 @@ In the previous part, we mentioned that this is a minimization problem. So, the 
 </ul>
 </ol>
 <br><br>
-<li><h2><b> Build a Supply Chain Model (SCM): Constrains</b></h2></li>
-Please refer to the <a href="https://www.w3schools.com">SCM Example</a>
+<li><h2><b> An example of supply chain model: Constrains</b></h2></li>
+Please refer to the <a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/SCM%20example">SCM Example</a>
 
 
 </ul>大標題的
