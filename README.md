@@ -186,21 +186,14 @@ Min &sum;<sub>t</sub> ( &sum;<sub>vp</sub> Mcost<sub>tvp</sub> &middot; LV<sub>t
 <br><br>
 <li><h3><b> Upperbound and Lowerbound constrains</b></h3></li>
 <ul>
-  <li>0	&le; R<sub>tvfp</sub> &le; upper R<sub>tvfp</sub>  for all t, v, f, p</li>
-  <li>0	&le; R<sub>tfwg</sub> &le; upper R<sub>tfwg</sub>  for all t, f, w,g</li>
-  <li>0	&le; R<sub>twcg</sub> &le; upper R<sub>twcg</sub>  for all t, w, c, g</li>
-  <li>lower R<sub>tfg</sub>	&le; R<sub>tfg</sub> &le; upper R<sub>tfg</sub>  for all t, g, f</li>
+  <li>0	&le; R<sub>tvfp</sub> &le; upper R<sub>tvfp</sub>                        for all t, v, f, p</li>
+  <li>0	&le; R<sub>tfwg</sub> &le; upper R<sub>tfwg</sub>                        for all t, f, w,g</li>
+  <li>0	&le; R<sub>twcg</sub> &le; upper R<sub>twcg</sub>                        for all t, w, c, g</li>
+  <li>lower R<sub>tfg</sub>	&le; R<sub>tfg</sub> &le; upper R<sub>tfg</sub>      for all t, g, f</li>
   <li>lower LF<sub>tfp</sub>	&le; LF<sub>tfp</sub> &le; upper LF<sub>tfp</sub>  for all t, f, p</li>
   <li>lower LF<sub>tfg</sub>	&le; LF<sub>tfg</sub> &le; upper LF<sub>tfg</sub>  for all t, f, g</li>
   <li>lower LW<sub>twg</sub>	&le; LW<sub>twg</sub> &le; upper LW<sub>twg</sub>  for all t, w, g</li>
 </ul>
 
-
-
-
-
-
-
 </ol>
-
 </ul>
