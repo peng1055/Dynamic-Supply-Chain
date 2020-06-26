@@ -372,7 +372,7 @@ Finally, we will get the result.
 <br><br>
 
 ``` 
- objective function </th> <th>2035.22</th> 
+ objective function = 2035.22 
 ```  
 
  
