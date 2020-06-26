@@ -23,6 +23,9 @@ Define the struture of SCM as below:
   <th> customer </th> <th>3</th> <th>C = { c<sub>1</sub> , c<sub>2</sub> , c<sub>3</sub> }</th> 
   </tr>
   <tr>
+  <th> material </th> <th>3</th> <th>P = { p<sub>1</sub> , p<sub>2</sub> , p<sub>3</sub> }</th> 
+  </tr>
+  <tr>
   <th> goods </th> <th>1</th> <th>G = { g<sub>1</sub> }</th> 
   </tr>
   <tr>
