@@ -18,7 +18,7 @@ In this article, we will introduced about supply chian and build a linear model.
     <li><a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/DSCM.md#-upperbound-and-lowerbound-constrains">Upperbound and Lowerbound constrains</a></li>
     <li><a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/DSCM.md#-flow-conservation-constraints">Flow conservation constraints</a></li>
   </ol>
-  <li><a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/SCM%20example">An example of supply chain model</a></li>
+  <li><a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/SCM%20example.md">An example of supply chain model</a></li>
   <li><a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/DSCM.md#summary">Summary</a></li>
   <li><a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/DSCM.md#reference">Reference</a></li> 
 </ul>
