@@ -1,10 +1,10 @@
 <h1><b>Example of SCM</b></h1>
 &#9733  If you  haven’t read the SC model, please check <a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/DSCM.md#-build-a-supply-chain-model-scm-notation-variables-and-input-data">HERE</a>!
-<br>
+<br><br>
 After introducing the SC model, we take an example for it. 
 <br>
 <br>
-Define the struture of SCM as below:
+Define the struture of SCM as below table and figure:
 <br><br>
 <table>
   <tr>
@@ -33,9 +33,10 @@ Define the struture of SCM as below:
   </tr>
 </table>
 <br>
+<br><br>
+<img src=https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/activities.png width="500" height="500">
 <br>
-
-
+<br>
 
 
 
