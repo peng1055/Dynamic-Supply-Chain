@@ -29,7 +29,7 @@ Define the struture of SCM as below table and figure:
   <th> goods </th> <th>1</th> <th>G = { g<sub>1</sub> }</th> 
   </tr>
   <tr>
-  <th> time units </th> <th>5</th> <th>W = { t<sub>1</sub> , t<sub>2</sub> , t<sub>3</sub>, t<sub>4</sub> , t<sub>5</sub> }</th> 
+  <th> time units </th> <th>5</th> <th>T = { t<sub>1</sub> , t<sub>2</sub> , t<sub>3</sub>, t<sub>4</sub> , t<sub>5</sub> }</th> 
   </tr>
 </table>
 <br>
