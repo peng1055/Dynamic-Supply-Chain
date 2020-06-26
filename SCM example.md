@@ -303,14 +303,15 @@ LFtfp = pulp.LpVariable.dicts("LFtfp",LFtfp, 0)
 Input objective function into model.
 <br><br>
 ```
-model += lpSum([(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Mcost_tvp [i] for i in LVtvp]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Pcost_tfg [i] for i in Rtfg]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*VF_Tcost_tvfp [i] for i in Rtvfp]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FW_Tcost_tfwg [i] for i in Rtfwg]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FG_Icost_tfg [i] for i in LFtfg]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*W_Icost_twg [i] for i in LWtwg]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*WC_Tcost_twcg [i] for i in Rtwcg]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FM_Icost_tfp [i] for i in LFtfp])
+model += lpSum([(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*LVtvp[i] for i in Mcost_tvp]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Rtfg[i] for i in Pcost_tfg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Rtvfp[i] for i in VF_Tcost_tvfp]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Rtfwg[i] for i in FW_Tcost_tfwg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*LFtfg[i] for i in FG_Icost_tfg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*LWtwg[i] for i in W_Icost_twg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Rtwcg[i] for i in WC_Tcost_twcg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*LFtfp[i] for i in FM_Icost_tfp])
+
 ```             
 <br><br>
 Input constrains into model. There are many constrains, the formulas as below are only partial.
