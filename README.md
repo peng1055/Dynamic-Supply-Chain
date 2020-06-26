@@ -1,7 +1,7 @@
 <h1><b>Dynamic-Supply-Chain</b></h1>
 <br><br>
 In this article, we will introduced about supply chian and build a linear model. Finally, we take an example and implement it by using python+pulp.
-<br><br><b>See <a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/DSCM.md">DSMC.md</a>.</b>
+<br><br><b>See <a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/DSCM.md">DSCM.md</a>.</b>
 <br><br>
 <h2><b>The Contents</b></h2>
 <ul>
