@@ -368,117 +368,12 @@ for v in model.variables():
 print('obj=',value(model.objective))
 ```
 <br><br>
-Finally, we will get the following table.
+Finally, we will get the result.
 <br><br>
-<table>
-<tr>
-  <th> Variable </th> <th>Value</th> 
-</tr>
-<tr>
-  <th> FG_Icost_FG_Icost_t11 </th> <th>0</th> 
-</tr>
-<tr>
-  <th> FG_Icost_FG_Icost_t21 </th> <th>0</th> 
-</tr>
-<tr>
-  <th> FM_Icost_FM_Icost_t11 </th> <th>0</th> 
-</tr>
-<tr>
-  <th> FM_Icost_FM_Icost_t12 </th> <th>0</th> 
-</tr>
-<tr>
-  <th> FM_Icost_FM_Icost_t13 </th> <th>0</th> 
-</tr>
-<tr>
-  <th> FM_Icost_FM_Icost_t21 </th> <th>0</th> 
-</tr>
-<tr>
-  <th> FM_Icost_FM_Icost_t22 </th> <th>0</th> 
-</tr>  
-<tr>
-  <th> FM_Icost_FM_Icost_t23 </th> <th>0</th> 
-</tr> 
-<tr>
-  <th> FW_Tcost_FW_Tcost_tf11_1 </th> <th>0</th> 
-</tr>   
-<tr>
-  <th> FW_Tcost_FW_Tcost_tf11_2 </th> <th>0</th> 
-</tr>    
-<tr>
-  <th> FW_Tcost_FW_Tcost_tf12_1 </th> <th>0</th> 
-</tr>   
-<tr>
-  <th> FW_Tcost_FW_Tcost_tf12_2 </th> <th>0</th> 
-</tr> 
-<tr>
-  <th> Mcost_Mcost_t11 </th> <th>0</th> 
-</tr>   
-<tr>
-  <th> Mcost_Mcost_t12 </th> <th>0</th> 
-</tr>   
-<tr>
-  <th> Mcost_Mcost_t13 </th> <th>0</th> 
-</tr>   
-<tr>
-  <th> Mcost_Mcost_t21 </th> <th>0</th> 
-</tr>   
-<tr>
-  <th> Mcost_Mcost_t22 </th> <th>0</th> 
-</tr> 
-<tr>
-  <th> Mcost_Mcost_t23 </th> <th>0</th> 
-</tr> 
-<tr>
-  <th> Pcost_Pcost_t11 </th> <th>0</th> 
-</tr> 
-<tr>
-  <th> Pcost_Pcost_t21 </th> <th>0</th> 
-</tr> 
-<tr>
-  <th> VF_Tcost_VFcost_t11_1 </th> <th>0</th> 
-</tr> 
-<tr>
-  <th> VF_Tcost_VFcost_t11_2 </th> <th>0</th> 
-</tr> 
-<tr>
-  <th> VF_Tcost_VFcost_t12_1 </th> <th>0</th> 
-</tr>
-<tr>
-  <th> VF_Tcost_VFcost_t12_2 </th> <th>0</th> 
-</tr>
-<tr>
-  <th> VF_Tcost_VFcost_t13_1 </th> <th>0</th> 
-</tr>  
-<tr>
-  <th> VF_Tcost_VFcost_t13_2 </th> <th>0</th> 
-</tr>  
-<tr>
-  <th> VF_Tcost_VFcost_t21_1 </th> <th>0</th> 
-</tr>  
-<tr>
-  <th> VF_Tcost_VFcost_t21_2 </th> <th>0</th> 
-</tr>    
-<tr>
-  <th> VF_Tcost_VFcost_t22_1 </th> <th>0</th> 
-</tr>    
-<tr>
-  <th> VF_Tcost_VFcost_t22_2 </th> <th>0</th> 
-</tr>    
-<tr>
-  <th> VF_Tcost_VFcost_t23_1 </th> <th>0</th> 
-</tr>      
-<tr>
-  <th> VF_Tcost_VFcost_t23_2 </th> <th>0</th> 
-</tr>    
-<tr>
-  <th> W_Icost_W_Icost_t11 </th> <th>0</th> 
-</tr>    
-<tr>
-  <th> W_Icost_W_Icost_t21 </th> <th>20</th> 
-</tr>     
-<tr>
-  <th> objective function </th> <th>5</th> 
-</tr>    
+
+``` 
+ objective function </th> <th>2035.22</th> 
+```  
 
  
 
