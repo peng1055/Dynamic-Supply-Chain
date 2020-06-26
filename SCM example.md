@@ -50,8 +50,7 @@ from pulp import *
 model = pulp.LpProblem("minimum", LpMinimize)
 Mcost_tvp = ['LVtvp11', 'LVtvp12', 'LVtvp13', 'LVtvp21', 'LVtvp22','LVtvp23']
 Pcost_tfg=["Rtfg11","Rtfg21"]
-VF_Tcost_tvfp=["Rtvfp111","Rtvfp112","Rtvfp121","Rtvfp122","Rtvfp131","Rtvfp132",'Rtvfp211',
-          "Rtvfp212", 'Rtvfp221',"Rtvfp222",'Rtvfp231',"Rtvfp232"]
+VF_Tcost_tvfp=["Rtvfp111","Rtvfp112","Rtvfp121","Rtvfp122","Rtvfp131","Rtvfp132",'Rtvfp211', "Rtvfp212", 'Rtvfp221',"Rtvfp222",'Rtvfp231',"Rtvfp232"]
 FW_Tcost_tfwg=["Rtfwg111","Rtfwg211","Rtfwg121","Rtfwg221"]
 WC_Tcost_twcg=["Rtwcg111","Rtwcg211","Rtwcg121","Rtwcg221","Rtwcg131","Rtwcg231"]
 FM_Icost_tfp=["LFtfp11","LFtfp12","LFtfp13",'LFtfp21', 'LFtfp22','LFtfp23']
