@@ -48,14 +48,15 @@ Import pulp into python, and define each variables.
 ```
 from pulp import *
 model = pulp.LpProblem("minimum", LpMinimize)
-Mcost_tvp = ["Mcost_t11", "Mcost_t12", "Mcost_t13", "Mcost_t21", "Mcost_t22","Mcost_t23"]
-Pcost_tfg=["Pcost_t11","Pcost_t21"]
-VF_Tcost_tvfp=["VFcost_t11_1","VFcost_t11_2","VFcost_t12_1","VFcost_t12_2","VFcost_t13_1","VFcost_t13_2",'VFcost_t21_1',"VFcost_t21_2",'VFcost_t22_1',"VFcost_t22_2",'VFcost_t23_1',"VFcost_t23_2"]
-FW_Tcost_tfwg=["FW_Tcost_tf11_1","FW_Tcost_tf11_2","FW_Tcost_tf12_1","FW_Tcost_tf12_2"]
-WC_Tcost_twcg=["WC_Tcost_tf11_1","WC_Tcost_tf11_2","WC_Tcost_tf21_1","WC_Tcost_tf21_2","WC_Tcost_tf31_1","WC_Tcost_tf31_2"]
-FM_Icost_tfp=["FM_Icost_t11","FM_Icost_t12","FM_Icost_t13",'FM_Icost_t21', 'FM_Icost_t22','FM_Icost_t23']
-FG_Icost_tfg=["FG_Icost_t11","FG_Icost_t21"]
-W_Icost_twg=["W_Icost_t11","W_Icost_t21"]
+Mcost_tvp = ['LVtvp11', 'LVtvp12', 'LVtvp13', 'LVtvp21', 'LVtvp22','LVtvp23']
+Pcost_tfg=["Rtfg11","Rtfg21"]
+VF_Tcost_tvfp=["Rtvfp111","Rtvfp112","Rtvfp121","Rtvfp122","Rtvfp131","Rtvfp132",'Rtvfp211',
+          "Rtvfp212", 'Rtvfp221',"Rtvfp222",'Rtvfp231',"Rtvfp232"]
+FW_Tcost_tfwg=["Rtfwg111","Rtfwg211","Rtfwg121","Rtfwg221"]
+WC_Tcost_twcg=["Rtwcg111","Rtwcg211","Rtwcg121","Rtwcg221","Rtwcg131","Rtwcg231"]
+FM_Icost_tfp=["LFtfp11","LFtfp12","LFtfp13",'LFtfp21', 'LFtfp22','LFtfp23']
+FG_Icost_tfg=["LFtfg11","LFtfg21"]
+W_Icost_twg=["LWtwg11","LWtwg21"]
 
 ```
 <br><br>
@@ -63,278 +64,299 @@ Key in the given data.
 <br><br>
 ```
 t1={
-    'Mcost_t11':10.5,
-    'Mcost_t12':6.5,
-    'Mcost_t13':8.5,
-    'Mcost_t21':20.5,
-    'Mcost_t22':7.5,
-    'Mcost_t23':7.5,
-    'Pcost_t11':0.4,
-    'Pcost_t21':0.45,
-    'VFcost_t11_1':10.5,
-    'VFcost_t12_1':6.5,
-    'VFcost_t13_1':8.5,
-    'VFcost_t21_1':20.5,
-    'VFcost_t22_1':7.5,
-    'VFcost_t23_1':7.5,
-    'VFcost_t11_2':10.5,
-    'VFcost_t12_2':6.5,
-    'VFcost_t13_2':8.5,
-    'VFcost_t21_2':20.5,
-    'VFcost_t22_2':7.5,
-    'VFcost_t23_2':7.5,
-    "FW_Tcost_tf11_1":0.2,
-    "FW_Tcost_tf12_1":0.3,
-    "FW_Tcost_tf11_2":0.5,
-    "FW_Tcost_tf12_2":0.1,
-    "FG_Icost_t11":0.1,
-    "FG_Icost_t21":0.09,
-    "W_Icost_t11":0.07,
-    "W_Icost_t21":0.05,
-    "WC_Tcost_tf11_1":0.6,
-    "WC_Tcost_tf11_2":0.3,
-    "WC_Tcost_tf21_1":0.4,
-    "WC_Tcost_tf21_2":0.5,
-    "WC_Tcost_tf31_1":0.3,
-    "WC_Tcost_tf31_2":0.4,
-    'FM_Icost_t11':0.02,
-    'FM_Icost_t12':0.02,
-    'FM_Icost_t13':0.02,
-    'FM_Icost_t21':0.01,
-    'FM_Icost_t22':0.01,
-    'FM_Icost_t23':0.01,
+    'LVtvp11':10.5,
+    'LVtvp12':6.5,
+    'LVtvp13':8.5,
+    'LVtvp21':20.5,
+    'LVtvp22':7.5,
+    'LVtvp23':7.5,
+    'Rtfg11':0.4,
+    'Rtfg21':0.45,
+    'Rtvfp111':10.5,
+    'Rtvfp121':6.5,
+    'Rtvfp131':8.5,
+    'Rtvfp211':20.5,
+    'Rtvfp221':7.5,
+    'Rtvfp231':7.5,
+    'Rtvfp112':10.5,
+    'Rtvfp122':6.5,
+    'Rtvfp132':8.5,
+    'Rtvfp212':20.5,
+    'Rtvfp222':7.5,
+    'Rtvfp232':7.5,
+    "Rtfwg111":0.2,
+    "Rtfwg121":0.3,
+    "Rtfwg211":0.5,
+    "Rtfwg221":0.1,
+    "LFtfg11":0.1,
+    "LFtfg21":0.09,
+    "LWtwg11":0.07,
+    "LWtwg21":0.05,
+    "Rtwcg111":0.6,
+    "Rtwcg211":0.3,
+    "Rtwcg121":0.4,
+    "Rtwcg221":0.5,
+    "Rtwcg131":0.3,
+    "Rtwcg231":0.4,
+    'LFtfp11':0.02,
+    'LFtfp12':0.02,
+    'LFtfp13':0.02,
+    'LFtfp21':0.01,
+    'LFtfp22':0.01,
+    'LFtfp23':0.01,
     
 }
 t2={
-    'Mcost_t11':10.4,
-    'Mcost_t12':6.4,
-    'Mcost_t13':8.4,
-    'Mcost_t21':20.4,
-    'Mcost_t22':7.4,
-    'Mcost_t23':7.4,
-    'Pcost_t11':0.4,
-    'Pcost_t21':0.45,
-    'VFcost_t11_1':10.5,
-    'VFcost_t12_1':6.5,
-    'VFcost_t13_1':8.5,
-    'VFcost_t21_1':20.5,
-    'VFcost_t22_1':7.5,
-    'VFcost_t23_1':7.5,
-    'VFcost_t11_2':10.5,
-    'VFcost_t12_2':6.5,
-    'VFcost_t13_2':8.5,
-    'VFcost_t21_2':20.5,
-    'VFcost_t22_2':7.5,
-    'VFcost_t23_2':7.5,
-    "FW_Tcost_tf11_1":0.2,
-    "FW_Tcost_tf12_1":0.3,
-    "FW_Tcost_tf11_2":0.5,
-    "FW_Tcost_tf12_2":0.1,
-    "FG_Icost_t11":0.1,
-    "FG_Icost_t21":0.09,
-    "W_Icost_t11":0.07,
-    "W_Icost_t21":0.05,
-    "WC_Tcost_tf11_1":0.6,
-    "WC_Tcost_tf11_2":0.3,
-    "WC_Tcost_tf21_1":0.4,
-    "WC_Tcost_tf21_2":0.5,
-    "WC_Tcost_tf31_1":0.3,
-    "WC_Tcost_tf31_2":0.4,
-    'FM_Icost_t11':0.02,
-    'FM_Icost_t12':0.02,
-    'FM_Icost_t13':0.02,
-    'FM_Icost_t21':0.01,
-    'FM_Icost_t22':0.01,
-    'FM_Icost_t23':0.01,
+    'LVtvp11':10.4,
+    'LVtvp12':6.4,
+    'LVtvp13':8.4,
+    'LVtvp21':20.4,
+    'LVtvp22':7.4,
+    'LVtvp23':7.4,
+    'Rtfg11':0.4,
+    'Rtfg21':0.45,
+    'Rtvfp111':10.5,
+    'Rtvfp121':6.5,
+    'Rtvfp131':8.5,
+    'Rtvfp211':20.5,
+    'Rtvfp221':7.5,
+    'Rtvfp231':7.5,
+    'Rtvfp112':10.5,
+    'Rtvfp122':6.5,
+    'Rtvfp132':8.5,
+    'Rtvfp212':20.5,
+    'Rtvfp222':7.5,
+    'Rtvfp232':7.5,
+    "Rtfwg111":0.2,
+    "Rtfwg121":0.3,
+    "Rtfwg211":0.5,
+    "Rtfwg221":0.1,
+    "LFtfg11":0.1,
+    "LFtfg21":0.09,
+    "LWtwg11":0.07,
+    "LWtwg21":0.05,
+    "Rtwcg111":0.6,
+    "Rtwcg211":0.3,
+    "Rtwcg121":0.4,
+    "Rtwcg221":0.5,
+    "Rtwcg131":0.3,
+    "Rtwcg231":0.4,
+    'LFtfp11':0.02,
+    'LFtfp12':0.02,
+    'LFtfp13':0.02,
+    'LFtfp21':0.01,
+    'LFtfp22':0.01,
+    'LFtfp23':0.01,
 }
 t3={
-    'Mcost_t11':10.3,
-    'Mcost_t12':6.3,
-    'Mcost_t13':8.3,
-    'Mcost_t21':20.3,
-    'Mcost_t22':7.3,
-    'Mcost_t23':7.3,
-    'Pcost_t11':0.4,
-    'Pcost_t21':0.45,
-    'VFcost_t11_1':0.01,
-    'VFcost_t12_1':0.01,
-    'VFcost_t13_1':0.01,
-    'VFcost_t21_1':0.01,
-    'VFcost_t22_1':0.01,
-    'VFcost_t23_1':0.01,
-    'VFcost_t11_2':0.01,
-    'VFcost_t12_2':0.01,
-    'VFcost_t13_2':0.01,
-    'VFcost_t21_2':0.01,
-    'VFcost_t22_2':0.01,
-    'VFcost_t23_2':0.01,
-    "FW_Tcost_tf11_1":0.2,
-    "FW_Tcost_tf12_1":0.3,
-    "FW_Tcost_tf11_2":0.5,
-    "FW_Tcost_tf12_2":0.1,
-    "FG_Icost_t11":0.1,
-    "FG_Icost_t21":0.09,
-    "W_Icost_t11":0.07,
-    "W_Icost_t21":0.05,
-    "WC_Tcost_tf11_1":0.6,
-    "WC_Tcost_tf11_2":0.3,
-    "WC_Tcost_tf21_1":0.4,
-    "WC_Tcost_tf21_2":0.5,
-    "WC_Tcost_tf31_1":0.3,
-    "WC_Tcost_tf31_2":0.4,
-    'FM_Icost_t11':0.02,
-    'FM_Icost_t12':0.02,
-    'FM_Icost_t13':0.02,
-    'FM_Icost_t21':0.01,
-    'FM_Icost_t22':0.01,
-    'FM_Icost_t23':0.01,
+    'LVtvp11':10.3,
+    'LVtvp12':6.3,
+    'LVtvp13':8.3,
+    'LVtvp21':20.3,
+    'LVtvp22':7.3,
+    'LVtvp23':7.3,
+    'Rtfg11':0.4,
+    'Rtfg21':0.45,
+    'Rtvfp111':0.01,
+    'Rtvfp121':0.01,
+    'Rtvfp131':0.01,
+    'Rtvfp211':0.01,
+    'Rtvfp221':0.01,
+    'Rtvfp231':0.01,
+    'Rtvfp112':0.01,
+    'Rtvfp122':0.01,
+    'Rtvfp132':0.01,
+    'Rtvfp212':0.01,
+    'Rtvfp222':0.01,
+    'Rtvfp232':0.01,
+    "Rtfwg111":0.2,
+    "Rtfwg121":0.3,
+    "Rtfwg211":0.5,
+    "Rtfwg221":0.1,
+    "LFtfg11":0.1,
+    "LFtfg21":0.09,
+    "LWtwg11":0.07,
+    "LWtwg21":0.05,
+    "Rtwcg111":0.6,
+    "Rtwcg211":0.3,
+    "Rtwcg121":0.4,
+    "Rtwcg221":0.5,
+    "Rtwcg131":0.3,
+    "Rtwcg231":0.4,
+    'LFtfp11':0.02,
+    'LFtfp12':0.02,
+    'LFtfp13':0.02,
+    'LFtfp21':0.01,
+    'LFtfp22':0.01,
+    'LFtfp23':0.01,
 }
 t4={
-    'Mcost_t11':10.2,
-    'Mcost_t12':6.2,
-    'Mcost_t13':8.2,
-    'Mcost_t21':20.2,
-    'Mcost_t22':7.2,
-    'Mcost_t23':7.2,
-    'Pcost_t11':0.4,
-    'Pcost_t21':0.45,
-    'VFcost_t11_1':0.01,
-    'VFcost_t12_1':0.01,
-    'VFcost_t13_1':0.01,
-    'VFcost_t21_1':0.01,
-    'VFcost_t22_1':0.01,
-    'VFcost_t23_1':0.01,
-    'VFcost_t11_2':0.01,
-    'VFcost_t12_2':0.01,
-    'VFcost_t13_2':0.01,
-    'VFcost_t21_2':0.01,
-    'VFcost_t22_2':0.01,
-    'VFcost_t23_2':0.01,
-    "FW_Tcost_tf11_1":0.2,
-    "FW_Tcost_tf12_1":0.3,
-    "FW_Tcost_tf11_2":0.5,
-    "FW_Tcost_tf12_2":0.1,
-    "FG_Icost_t11":0.1,
-    "FG_Icost_t21":0.09,
-    "W_Icost_t11":0.07,
-    "W_Icost_t21":0.05,
-    "WC_Tcost_tf11_1":0.6,
-    "WC_Tcost_tf11_2":0.3,
-    "WC_Tcost_tf21_1":0.4,
-    "WC_Tcost_tf21_2":0.5,
-    "WC_Tcost_tf31_2":0.3,
-    "WC_Tcost_tf31_2":0.4,
-    'FM_Icost_t11':0.02,
-    'FM_Icost_t12':0.02,
-    'FM_Icost_t13':0.02,
-    'FM_Icost_t21':0.01,
-    'FM_Icost_t22':0.01,
-    'FM_Icost_t23':0.01,
+    'LVtvp11':10.2,
+    'LVtvp12':6.2,
+    'LVtvp13':8.2,
+    'LVtvp21':20.2,
+    'LVtvp22':7.2,
+    'LVtvp23':7.2,
+    'Rtfg11':0.4,
+    'Rtfg21':0.45,
+    'Rtvfp111':0.01,
+    'Rtvfp121':0.01,
+    'Rtvfp131':0.01,
+    'Rtvfp211':0.01,
+    'Rtvfp221':0.01,
+    'Rtvfp231':0.01,
+    'Rtvfp112':0.01,
+    'Rtvfp122':0.01,
+    'Rtvfp132':0.01,
+    'Rtvfp212':0.01,
+    'Rtvfp222':0.01,
+    'Rtvfp232':0.01,
+    "Rtfwg111":0.2,
+    "Rtfwg121":0.3,
+    "Rtfwg211":0.5,
+    "Rtfwg221":0.1,
+    "LFtfg11":0.1,
+    "LFtfg21":0.09,
+    "LWtwg11":0.07,
+    "LWtwg21":0.05,
+    "Rtwcg111":0.6,
+    "Rtwcg211":0.3,
+    "Rtwcg121":0.4,
+    "Rtwcg221":0.5,
+    "Rtwcg131":0.3,
+    "Rtwcg231":0.4,
+    'LFtfp11':0.02,
+    'LFtfp12':0.02,
+    'LFtfp13':0.02,
+    'LFtfp21':0.01,
+    'LFtfp22':0.01,
+    'LFtfp23':0.01,
 }
 t5={
-    'Mcost_t11':10.1,
-    'Mcost_t12':6.1,
-    'Mcost_t13':8.1,
-    'Mcost_t21':20.1,
-    'Mcost_t22':7.1,
-    'Mcost_t23':7.1,
-    'Pcost_t11':0.4,
-    'Pcost_t21':0.45,
-    'VFcost_t11_1':0.01,
-    'VFcost_t12_1':0.01,
-    'VFcost_t13_1':0.01,
-    'VFcost_t21_1':0.01,
-    'VFcost_t22_1':0.01,
-    'VFcost_t23_1':0.01,
-    'VFcost_t11_2':0.01,
-    'VFcost_t12_2':0.01,
-    'VFcost_t13_2':0.01,
-    'VFcost_t21_2':0.01,
-    'VFcost_t22_2':0.01,
-    'VFcost_t23_2':0.01,
-    "FW_Tcost_tf11_1":0.2,
-    "FW_Tcost_tf12_1":0.3,
-    "FW_Tcost_tf11_2":0.5,
-    "FW_Tcost_tf12_2":0.1,
-    "FG_Icost_t11":0.1,
-    "FG_Icost_t21":0.09,
-    "W_Icost_t11":0.07,
-    "W_Icost_t21":0.05,
-    "WC_Tcost_tf11_1":0.6,
-    "WC_Tcost_tf11_2":0.3,
-    "WC_Tcost_tf21_1":0.4,
-    "WC_Tcost_tf21_2":0.5,
-    "WC_Tcost_tf31_1":0.3,
-    "WC_Tcost_tf31_2":0.4,
-    'FM_Icost_t11':0.02,
-    'FM_Icost_t12':0.02,
-    'FM_Icost_t13':0.02,
-    'FM_Icost_t21':0.01,
-    'FM_Icost_t22':0.01,
-    'FM_Icost_t23':0.01,
+    'LVtvp11':10.1,
+    'LVtvp12':6.1,
+    'LVtvp13':8.1,
+    'LVtvp21':20.1,
+    'LVtvp22':7.1,
+    'LVtvp23':7.1,
+    'Rtfg11':0.4,
+    'Rtfg21':0.45,
+    'Rtvfp111':0.01,
+    'Rtvfp121':0.01,
+    'Rtvfp131':0.01,
+    'Rtvfp211':0.01,
+    'Rtvfp221':0.01,
+    'Rtvfp231':0.01,
+    'Rtvfp112':0.01,
+    'Rtvfp122':0.01,
+    'Rtvfp132':0.01,
+    'Rtvfp212':0.01,
+    'Rtvfp222':0.01,
+    'Rtvfp232':0.01,
+    "Rtfwg111":0.2,
+    "Rtfwg121":0.3,
+    "Rtfwg211":0.5,
+    "Rtfwg221":0.1,
+    "LFtfg11":0.1,
+    "LFtfg21":0.09,
+    "LWtwg11":0.07,
+    "LWtwg21":0.05,
+    "Rtwcg111":0.6,
+    "Rtwcg211":0.3,
+    "Rtwcg121":0.4,
+    "Rtwcg221":0.5,
+    "Rtwcg131":0.3,
+    "Rtwcg231":0.4,
+    'LFtfp11':0.02,
+    'LFtfp12':0.02,
+    'LFtfp13':0.02,
+    'LFtfp21':0.01,
+    'LFtfp22':0.01,
+    'LFtfp23':0.01,
 }
 ```
 <br><br>
 Declared decision variables into model.
 <br><br>
 ```
-Mcost = pulp.LpVariable.dicts("Mcost",Mcost_tvp, 0)
-Pcost = pulp.LpVariable.dicts("Pcost",Pcost_tfg, 0)
-VF_Tcost = pulp.LpVariable.dicts("VF_Tcost",VF_Tcost_tvfp, 0)
-FW_Tcost =pulp. LpVariable.dicts("FW_Tcost",FW_Tcost_tfwg, 0)
-WC_Tcost = pulp.LpVariable.dicts("WC_Tcost",WC_Tcost_twcg, 0)
-FM_Icost = pulp.LpVariable.dicts("FM_Icost",FM_Icost_tfp, 0)
-FG_Icost = pulp.LpVariable.dicts("FG_Icost",FG_Icost_tfg, 0)
-W_Icost = pulp.LpVariable.dicts("W_Icost",W_Icost_twg, 0)
+
+LVtvp=['LVtvp11','LVtvp12','LVtvp13','LVtvp21','LVtvp22','LVtvp23']
+Rtfg=['Rtfg11','Rtfg21']
+Rtvfp=['Rtvfp111','Rtvfp121','Rtvfp131','Rtvfp211','Rtvfp221','Rtvfp231','Rtvfp112','Rtvfp122','Rtvfp132','Rtvfp212','Rtvfp222','Rtvfp232']
+Rtfwg=['Rtfwg111','Rtfwg121','Rtfwg211','Rtfwg221']
+LFtfg=['LFtfg11','LFtfg21']
+LWtwg=['LWtwg11','LWtwg21']
+Rtwcg=['Rtwcg111','Rtwcg211','Rtwcg121','Rtwcg221','Rtwcg131','Rtwcg231']
+LFtfp=['LFtfp11','LFtfp12','LFtfp13','LFtfp21','LFtfp22','LFtfp23']
+
+
+LVtvp = pulp.LpVariable.dicts("LVtvp",LVtvp, 0)
+Rtfg = pulp.LpVariable.dicts("Rtfg",Rtfg, 0)
+Rtvfp = pulp.LpVariable.dicts("Rtvfp",Rtvfp, 0)
+Rtfwg =pulp. LpVariable.dicts("Rtfwg",Rtfwg, 0)
+LFtfg = pulp.LpVariable.dicts("LFtfg",LFtfg, 0)
+LWtwg = pulp.LpVariable.dicts("LWtwg",LWtwg, 0)
+Rtwcg = pulp.LpVariable.dicts("Rtwcg",Rtwcg, 0)
+LFtfp = pulp.LpVariable.dicts("LFtfp",LFtfp, 0)
 
 ```
 <br><br>
 Input objective function into model.
 <br><br>
 ```
-model += lpSum([(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Mcost [i] for i in Mcost]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Pcost [i] for i in Pcost]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*VF_Tcost [i] for i in VF_Tcost]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FW_Tcost [i] for i in FW_Tcost]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FG_Icost [i] for i in FG_Icost]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*W_Icost [i] for i in W_Icost]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FG_Icost [i] for i in FG_Icost]+
-              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FM_Icost [i] for i in FM_Icost])
+model += lpSum([(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Mcost_tvp [i] for i in LVtvp]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*Pcost_tfg [i] for i in Rtfg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*VF_Tcost_tvfp [i] for i in Rtvfp]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FW_Tcost_tfwg [i] for i in Rtfwg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FG_Icost_tfg [i] for i in LFtfg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*W_Icost_twg [i] for i in LWtwg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*WC_Tcost_twcg [i] for i in Rtwcg]+
+              [(t1[i]+t2[i]+t3[i]+t4[i]+t5[i])*FM_Icost_tfp [i] for i in LFtfp])
 ```             
 <br><br>
-Input constrains into model.
+Input constrains into model. There are many constrains, the formulas as below are only partial.
 <br><br>
 ```
-model += lpSum([t1[i] * Mcost[i] for i in Mcost]) <= 500
-model += lpSum([t2[i] * Mcost[i] for i in Mcost]) <= 500 
-model += lpSum([t3[i] * Mcost[i] for i in Mcost]) <= 500 
-model += lpSum([t4[i] * Mcost[i] for i in Mcost]) <= 500 
-model += lpSum([t5[i] * Mcost[i] for i in Mcost]) <= 500 
-model += lpSum(t1['W_Icost_t11']*W_Icost['W_Icost_t11'])<=400
-model += lpSum(t2['W_Icost_t11']*W_Icost['W_Icost_t11'])<=400
-model += lpSum(t3['W_Icost_t11']*W_Icost['W_Icost_t11'])<=400
-model += lpSum(t4['W_Icost_t11']*W_Icost['W_Icost_t11'])<=400
-model += lpSum(t5['W_Icost_t11']*W_Icost['W_Icost_t11'])<=400
-model += lpSum(t1['W_Icost_t21']*W_Icost['W_Icost_t21'])<=500
-model += lpSum(t2['W_Icost_t21']*W_Icost['W_Icost_t21'])<=500
-model += lpSum(t3['W_Icost_t21']*W_Icost['W_Icost_t21'])<=500
-model += lpSum(t4['W_Icost_t21']*W_Icost['W_Icost_t21'])<=500
-model += lpSum(t5['W_Icost_t21']*W_Icost['W_Icost_t21'])<=500
-model += lpSum(t1['FG_Icost_t11']*FG_Icost['FG_Icost_t11'])<=70
-model += lpSum(t2['FG_Icost_t11']*FG_Icost['FG_Icost_t11'])<=70
-model += lpSum(t3['FG_Icost_t11']*FG_Icost['FG_Icost_t11'])<=70
-model += lpSum(t4['FG_Icost_t11']*FG_Icost['FG_Icost_t11'])<=70
-model += lpSum(t5['FG_Icost_t11']*FG_Icost['FG_Icost_t11'])<=70
-model += lpSum(t1['FG_Icost_t21']*FG_Icost['FG_Icost_t21'])<=35
-model += lpSum(t2['FG_Icost_t21']*FG_Icost['FG_Icost_t21'])<=35
-model += lpSum(t3['FG_Icost_t21']*FG_Icost['FG_Icost_t21'])<=35
-model += lpSum(t4['FG_Icost_t21']*FG_Icost['FG_Icost_t21'])<=35
-model += lpSum(t5['FG_Icost_t21']*FG_Icost['FG_Icost_t21'])<=35
-model += lpSum([t1[i]*FM_Icost[i] for i in FM_Icost])<=[t1[i]*FW_Tcost[i] for i in FW_Tcost]+[t2[i]*FW_Tcost[i] for i in FW_Tcost]
-model += lpSum([t2[i]*FM_Icost[i] for i in FM_Icost])<=[t2[i]*FW_Tcost[i] for i in FW_Tcost]+[t3[i]*FW_Tcost[i] for i in FW_Tcost]
-model += lpSum([t3[i]*FM_Icost[i] for i in FM_Icost])<=[t3[i]*FW_Tcost[i] for i in FW_Tcost]+[t4[i]*FW_Tcost[i] for i in FW_Tcost]
-model += lpSum([t4[i]*FM_Icost[i] for i in FM_Icost])<=[t4[i]*FW_Tcost[i] for i in FW_Tcost]+[t5[i]*FW_Tcost[i] for i in FW_Tcost]
-model += lpSum(W_Icost['W_Icost_t21'])==20
+# Bounded Contrains
+
+model += lpSum(t1['LWtwg11']*LWtwg['LWtwg11'])<=400
+model += lpSum(t2['LWtwg11']*LWtwg['LWtwg11'])<=400
+model += lpSum(t3['LWtwg11']*LWtwg['LWtwg11'])<=400
+model += lpSum(t4['LWtwg11']*LWtwg['LWtwg11'])<=400
+model += lpSum(t5['LWtwg11']*LWtwg['LWtwg11'])<=400
+model += lpSum(t1['LWtwg21']*LWtwg['LWtwg21'])<=500
+model += lpSum(t2['LWtwg21']*LWtwg['LWtwg21'])<=500
+model += lpSum(t3['LWtwg21']*LWtwg['LWtwg21'])<=500
+model += lpSum(t4['LWtwg21']*LWtwg['LWtwg21'])<=500
+model += lpSum(t5['LWtwg21']*LWtwg['LWtwg21'])<=500
+model += lpSum(t1['LFtfg11']*LFtfg['LFtfg11'])<=70
+model += lpSum(t2['LFtfg11']*LFtfg['LFtfg11'])<=70
+model += lpSum(t3['LFtfg11']*LFtfg['LFtfg11'])<=70
+model += lpSum(t4['LFtfg11']*LFtfg['LFtfg11'])<=70
+model += lpSum(t5['LFtfg11']*LFtfg['LFtfg11'])<=70
+model += lpSum(t1['LFtfg21']*LFtfg['LFtfg21'])<=35
+model += lpSum(t2['LFtfg21']*LFtfg['LFtfg21'])<=35
+model += lpSum(t3['LFtfg21']*LFtfg['LFtfg21'])<=35
+model += lpSum(t4['LFtfg21']*LFtfg['LFtfg21'])<=35
+model += lpSum(t5['LFtfg21']*LFtfg['LFtfg21'])<=35
+
+.
+.
+.
+
+# Flow Balance Constrain
+
+model += lpSum(Rtvfp['Rtvfp111']+Rtvfp['Rtvfp112'])==LVtvp['LVtvp11']
+model += lpSum(Rtvfp['Rtvfp121']+Rtvfp['Rtvfp122'])==LVtvp['LVtvp12']
+model += lpSum(Rtvfp['Rtvfp131']+Rtvfp['Rtvfp132'])==LVtvp['LVtvp13']
+model += lpSum(Rtvfp['Rtvfp211']+Rtvfp['Rtvfp212'])==LVtvp['LVtvp21']
+model += lpSum(Rtvfp['Rtvfp221']+Rtvfp['Rtvfp222'])==LVtvp['LVtvp22']
+model += lpSum(Rtvfp['Rtvfp232']+Rtvfp['Rtvfp232'])==LVtvp['LVtvp23']
+
+.
+.
+.
+
 ``` 
 <br><br>
 Solve the problem and print the solution of variables.
@@ -347,7 +369,7 @@ for v in model.variables():
 print('obj=',value(model.objective))
 ```
 <br><br>
-Finally, get the following table.
+Finally, we will get the following table.
 <br><br>
 <table>
 <tr>
