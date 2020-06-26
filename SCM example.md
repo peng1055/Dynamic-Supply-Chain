@@ -41,7 +41,7 @@ Define the struture of SCM as below table and figure:
 The Python Code and explanation is as below parts.
 <br>
 <br>
-Note: This code will use <b>pulp</b> to solve the probelm. If you don't install it, you can refer to <a href:"https://github.com/PO-LAB/Python-Gurobi-Pulp">this article</a> which published by PO-LAB from NCKU IMIS. 
+Note: This code will use <b>pulp</b> to solve the probelm. If you don't install it, you can refer to <a href="https://github.com/PO-LAB/Python-Gurobi-Pulp">this article</a> which published by PO-LAB from NCKU IMIS. 
 <br><br>
 Import pulp into python, and define each variables.
 
