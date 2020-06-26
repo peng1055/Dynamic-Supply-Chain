@@ -1,5 +1,5 @@
 <h1><b>Example of SCM</b></h1>
-&#10017 If you  haven’t read the SC model, please check <a herf="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/DSCM.md#-build-a-supply-chain-model-scm-notation-variables-and-input-data">HERE</a>!
+&#9733  If you  haven’t read the SC model, please check <a herf="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/DSCM.md#-build-a-supply-chain-model-scm-notation-variables-and-input-data">HERE</a>!
 <br>
 After introducing the SC model, we take an example for it. 
 <br>
