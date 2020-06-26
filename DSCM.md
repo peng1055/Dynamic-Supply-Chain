@@ -209,7 +209,7 @@ In the previous part, we mentioned that this is a minimization problem. So, the 
 </ol>
 <br><br>
 <li><h2><b> An example of supply chain model</b></h2></li>
-Please refer to the <a href="https://github.com/peng1055/Dynamic-Supply-Chain/blob/master/SCM%20example">SCM Example</a>.
+Please refer to the <a href="https://github.com/peng1055/Dynamic-Supply-Chain/edit/master/SCM%20example.md">SCM Example</a>.
 <br><br>
 <li><h2><b>Summary</b></h2></li>
 In this article, we introduced the basic concepts of supply chain and the conditions required to build the supply chain models. However, in reality, the cost functions may not be linear, and there may be a quantity discount. This is the part that the linear model cannot explain.
